@@ -1,0 +1,11 @@
+.link {
+  color: rgb(163, 159, 159);
+  font-size: 24px;
+}
+
+.link:hover,
+.link:focus {
+  font-size: 24px;
+  color: orange;
+  text-decoration: underline;
+}
