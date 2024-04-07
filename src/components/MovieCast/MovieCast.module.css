@@ -1,0 +1,30 @@
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.listItem {
+  width: 240px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(169, 163, 163);
+  border-radius: 2px;
+}
+
+.img {
+  width: 240px;
+}
+
+.actorName {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.characterName {
+  font-size: 12px;
+  margin: 0px;
+}
