@@ -1,0 +1,91 @@
+.container {
+  margin-top: 80px;
+}
+
+.mainInfo {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+}
+
+.backLink {
+  position: fixed;
+  top: 75px;
+  left: 170px;
+  border: 1px solid orange;
+  border-radius: 15px;
+  overflow: hidden;
+  color: black;
+
+  background-color: white;
+  font-size: 16px;
+  font-weight: 700;
+  width: 70px;
+  height: 45px;
+  display: flex;
+  padding: 7px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.backLink:hover,
+.backLink:focus {
+  /* width: 60px;
+  height: 25px;
+  padding: 10px 15px;
+  border-radius: 15px; */
+  /* font-size: 20px; */
+  transform: scale(1.1);
+  color: orange;
+}
+
+.img {
+  height: 560px;
+}
+
+.movieName {
+  margin-top: 0px;
+  font-size: 32px;
+}
+
+.overviewHeading {
+  font-size: 16px;
+}
+
+.overviewText {
+  font-size: 14px;
+}
+
+.genresHeading {
+  font-size: 16px;
+}
+
+.genresText {
+  font-size: 14px;
+  color: orangered;
+}
+
+.additionalInfo {
+  padding: 40px;
+}
+
+.additionalInfoHeading {
+  margin: 0;
+}
+
+.additionalInfoList {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.link {
+  color: rgb(163, 159, 159);
+  font-size: 20px;
+}
+
+.link:hover,
+.link:focus {
+  font-size: 24px;
+  color: orange;
+  text-decoration: underline;
+}
