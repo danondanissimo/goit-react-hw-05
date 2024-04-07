@@ -1,0 +1,21 @@
+.list {
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item {
+  border: 1px solid orange;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+.author {
+  font-size: 20px;
+}
+
+.review {
+  font-size: 14px;
+}
