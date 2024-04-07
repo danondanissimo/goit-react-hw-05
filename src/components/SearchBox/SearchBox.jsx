@@ -7,25 +7,26 @@ const SearchBox = ({ onSubmit }) => {
     const form = event.target;
 
     const searchQuery = form.elements.search.value;
+    console.log("searchQuery: ", searchQuery);
+
     onSubmit(searchQuery);
+    event.target.reset();
   };
 
   return (
-    <header className={css.header}>
-      <form onSubmit={handleSubmit} className={css.form}>
-        <input
-          type="text"
-          autoComplete="off"
-          autoFocus
-          placeholder="Search images and photos"
-          name="search"
-          className={css.field}
-        />
-        <button type="submit" className={css.button}>
-          🔍
-        </button>
-      </form>
-    </header>
+    <form onSubmit={handleSubmit} className={css.form}>
+      <input
+        type="text"
+        autoComplete="off"
+        autoFocus
+        placeholder="Search images and photos"
+        name="search"
+        className={css.field}
+      />
+      <button type="submit" className={css.button}>
+        🔍
+      </button>
+    </form>
   );
 };
 
